@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ilia.ControleDePonto.API", "Ilia.ControleDePonto.API\Ilia.ControleDePonto.API.csproj", "{39C1B857-FFA7-4AB6-BE9B-6E7D1A4A6513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilia.ControleDePonto.Domain", "Ilia.ControleDePonto.Domain\Ilia.ControleDePonto.Domain.csproj", "{3682DD87-D05C-49F3-A58D-BF6DF5FF79D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilia.ControleDePonto.Application", "Ilia.ControleDePonto.Application\Ilia.ControleDePonto.Application.csproj", "{3D2FECCE-CA83-422C-8EC8-7E7F4B064F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilia.ControleDePonto.IoC", "Ilia.ControleDePonto.IoC\Ilia.ControleDePonto.IoC.csproj", "{D1375510-E4B0-46A3-9BC6-158F8E41ED55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilia.ControleDePonto.Tests.Unit", "Ilia.ControleDePonto.Testes.Unidade\Ilia.ControleDePonto.Tests.Unit.csproj", "{80220393-01A2-44FE-A0F0-A50857F25345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilia.ControleDePonto.Repository", "Ilia.ControleDePonto.Repository\Ilia.ControleDePonto.Repository.csproj", "{713DB8B4-C833-432D-A054-91FDCC91BCD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39C1B857-FFA7-4AB6-BE9B-6E7D1A4A6513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C1B857-FFA7-4AB6-BE9B-6E7D1A4A6513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C1B857-FFA7-4AB6-BE9B-6E7D1A4A6513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C1B857-FFA7-4AB6-BE9B-6E7D1A4A6513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3682DD87-D05C-49F3-A58D-BF6DF5FF79D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3682DD87-D05C-49F3-A58D-BF6DF5FF79D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3682DD87-D05C-49F3-A58D-BF6DF5FF79D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3682DD87-D05C-49F3-A58D-BF6DF5FF79D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2FECCE-CA83-422C-8EC8-7E7F4B064F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2FECCE-CA83-422C-8EC8-7E7F4B064F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2FECCE-CA83-422C-8EC8-7E7F4B064F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2FECCE-CA83-422C-8EC8-7E7F4B064F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1375510-E4B0-46A3-9BC6-158F8E41ED55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1375510-E4B0-46A3-9BC6-158F8E41ED55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1375510-E4B0-46A3-9BC6-158F8E41ED55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1375510-E4B0-46A3-9BC6-158F8E41ED55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80220393-01A2-44FE-A0F0-A50857F25345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80220393-01A2-44FE-A0F0-A50857F25345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80220393-01A2-44FE-A0F0-A50857F25345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80220393-01A2-44FE-A0F0-A50857F25345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713DB8B4-C833-432D-A054-91FDCC91BCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713DB8B4-C833-432D-A054-91FDCC91BCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713DB8B4-C833-432D-A054-91FDCC91BCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713DB8B4-C833-432D-A054-91FDCC91BCD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91F858DF-764E-47DF-9274-2E1CA2AC9940}
+	EndGlobalSection
+EndGlobal
