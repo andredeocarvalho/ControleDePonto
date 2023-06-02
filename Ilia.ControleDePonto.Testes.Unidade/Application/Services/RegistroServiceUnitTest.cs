@@ -61,7 +61,7 @@ namespace Ilia.ControleDePonto.Tests.Unit.Application.Services
             registro.Horarios.Should().NotBeNullOrEmpty();
             registro.Horarios.First().Should().NotBeNullOrWhiteSpace();
 
-            _controleDePontoRepositoryMock.Verify(x => x.GetRegistro(It.IsAny<DateOnly>()));
+            _controleDePontoRepositoryMock.Verify(x => x.AddMomento(It.IsAny<MomentoData>()));
         }
 
         private void SetupMocks()

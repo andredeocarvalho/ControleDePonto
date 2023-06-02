@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ilia.ControleDePonto.Repository
 {
-    public class ControleDePontoDbContext : DbContext
+    public class ControleDePontoDbContext : DbContext, IControleDePontoDbContext
     {
         public ControleDePontoDbContext()
         {

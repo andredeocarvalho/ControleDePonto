@@ -4,10 +4,10 @@ namespace Ilia.ControleDePonto.Repository.Repositories
 {
     public class ControleDePontoRepository : IControleDePontoRepository
     {
-        private readonly ControleDePontoDbContext _dbContext;
-        public ControleDePontoRepository()
+        private readonly IControleDePontoDbContext _dbContext;
+        public ControleDePontoRepository(IControleDePontoDbContext dbContext)
         {
-            _dbContext = new ControleDePontoDbContext();
+            _dbContext = dbContext;
         }
 
         public void AddMomento(MomentoData momento)
