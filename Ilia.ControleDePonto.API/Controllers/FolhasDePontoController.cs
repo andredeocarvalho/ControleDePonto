@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Ilia.ControleDePonto.API.Controllers
 {
+    [ApiController]
+    [Route("v1/folhas-de-ponto")]
     public class FolhasDePontoController : ControllerBase
     {
         private readonly IRegistroService _registroService;
